@@ -1,0 +1,68 @@
+.about {
+    position: relative;
+    /* align-items: center;
+    justify-content: center; */
+    /* justify-content: space-around; */
+    margin: 50px;
+   
+}
+.abimg{
+    height: 50vh;
+    width: 40%;
+    position: absolute;
+}
+.aboutContent {
+    height: 50vh;
+    width: 50%;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 0px;
+    /* text-align: center; */
+    /* margin: auto; */
+}
+.ourteam {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.ourEmpolyees:hover{
+    border: 3px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px  rgb(252, 216, 216);
+}
+.ourEmpolyees {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.team {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+.teamImg {
+    width: 330px;
+    height: auto;
+}
+
+.aboutHanding {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(100, 7, 54);
+    margin-top: 150px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px #e95ba3;
+}
+
+.aboutHanding:hover{
+    border: 2px solid  rgb(100, 7, 54);
+}
+.ourEmpolyeesBio{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}

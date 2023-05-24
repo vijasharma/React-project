@@ -1,0 +1,35 @@
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.contactHeader {
+    text-decoration: solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 0px 30px 0px;
+    background-color: rgb(121, 177, 233);
+    padding: 5PX;
+}
+.userData {
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(167, 220, 238);
+    padding: 8px;
+    margin: 30px;
+}
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(209, 178, 178);
+    gap: 30px;
+}
+.btn {
+    display: inline;
+}

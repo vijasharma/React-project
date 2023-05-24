@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 12px;
+    background-color: rgb(5, 5, 8);
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.header a {
+    text-decoration: none;
+    color:azure;
+}
