@@ -14,7 +14,7 @@ export default function MovieDetails() {
       .get(`http://www.omdbapi.com/?apikey=f17f3a87&i=${id}`)
       .then((response) => {
         setMovie(response?.data);
-        // console.log("data", response);
+         console.log("data", response);
       })
       .catch((error) => {
         console.log(error);
@@ -24,7 +24,7 @@ export default function MovieDetails() {
     <div>
       <div className="movieData">
         <h1>___MOVIE DETAILS___</h1>
-         
+        <img src={movie.Poster} alt="My" />
         <p>Actor Name: {movie.Actors} </p>
         <p> Movie Award: {movie.Awards} </p>
         <p> Box-office:{movie.BoxOffice}</p>

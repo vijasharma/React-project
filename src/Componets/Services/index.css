@@ -19,14 +19,16 @@
     gap: 22px;
 }
 .movieData {
-    background-color: rgb(49, 133, 133);
-    color: azure;
-    height: 300px;
-    width: 400px;
+    background-color:rgb(198, 206, 187);
+    color: black;
+   height: auto;
+   width: 25%;
     padding: 10px;
+    margin: auto;
     text-align: center;
-    column-gap: 8px;
-    margin: 30px;
+    column-gap: 12px;
+    margin-top: 40px; 
+    font-size: 16px;
 }
 .searchBtn {
     font-size: 18px;
