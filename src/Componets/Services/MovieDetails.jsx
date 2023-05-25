@@ -24,6 +24,7 @@ export default function MovieDetails() {
     <div>
       <div className="movieData">
         <h1>___MOVIE DETAILS___</h1>
+         
         <p>Actor Name: {movie.Actors} </p>
         <p> Movie Award: {movie.Awards} </p>
         <p> Box-office:{movie.BoxOffice}</p>

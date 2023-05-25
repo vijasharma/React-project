@@ -5,7 +5,7 @@ import About from "./Componets/About/About1";
 import Service from "./Componets/Services/Service1";
 import HeaderItem from "./Header/HeaderItem";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
- import MovieDetails from "./Componets/Services/MovieDetails";
+import MovieDetails from "./Componets/Services/MovieDetails";
 
 function App() {
   return (
